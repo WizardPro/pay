@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Exceptions;
+namespace WizardPro\Pay\Exceptions;
 
 class Exception extends \Exception
 {

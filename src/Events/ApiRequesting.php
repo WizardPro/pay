@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Events;
+namespace WizardPro\Pay\Events;
 
 class ApiRequesting extends Event
 {

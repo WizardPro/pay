@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace WizardPro\Pay\Gateways\Wechat;
 
 use Symfony\Component\HttpFoundation\Request;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Supports\Collection;
+use WizardPro\Pay\Events;
+use WizardPro\Pay\Exceptions\GatewayException;
+use WizardPro\Pay\Exceptions\InvalidArgumentException;
+use WizardPro\Pay\Exceptions\InvalidSignException;
+use WizardPro\Pay\Gateways\Wechat;
+use WizardPro\Supports\Collection;
 
 class RedpackGateway extends Gateway
 {

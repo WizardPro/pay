@@ -1,17 +1,17 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace WizardPro\Pay;
 
 use Exception;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Pay\Listeners\KernelLogSubscriber;
-use Yansongda\Supports\Config;
-use Yansongda\Supports\Log;
-use Yansongda\Supports\Logger;
-use Yansongda\Supports\Str;
+use WizardPro\Pay\Contracts\GatewayApplicationInterface;
+use WizardPro\Pay\Exceptions\InvalidGatewayException;
+use WizardPro\Pay\Gateways\Alipay;
+use WizardPro\Pay\Gateways\Wechat;
+use WizardPro\Pay\Listeners\KernelLogSubscriber;
+use WizardPro\Supports\Config;
+use WizardPro\Supports\Log;
+use WizardPro\Supports\Logger;
+use WizardPro\Supports\Str;
 
 /**
  * @method static Alipay alipay(array $config) 支付宝

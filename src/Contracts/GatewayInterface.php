@@ -1,9 +1,9 @@
 <?php
 
-namespace Yansongda\Pay\Contracts;
+namespace WizardPro\Pay\Contracts;
 
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Supports\Collection;
+use WizardPro\Supports\Collection;
 
 interface GatewayInterface
 {

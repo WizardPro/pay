@@ -1,21 +1,21 @@
 <?php
 
-namespace Yansongda\Pay\Gateways;
+namespace WizardPro\Pay\Gateways;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Contracts\GatewayInterface;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay\Support;
-use Yansongda\Supports\Collection;
-use Yansongda\Supports\Config;
-use Yansongda\Supports\Str;
+use WizardPro\Pay\Contracts\GatewayApplicationInterface;
+use WizardPro\Pay\Contracts\GatewayInterface;
+use WizardPro\Pay\Events;
+use WizardPro\Pay\Exceptions\GatewayException;
+use WizardPro\Pay\Exceptions\InvalidArgumentException;
+use WizardPro\Pay\Exceptions\InvalidConfigException;
+use WizardPro\Pay\Exceptions\InvalidGatewayException;
+use WizardPro\Pay\Exceptions\InvalidSignException;
+use WizardPro\Pay\Gateways\Alipay\Support;
+use WizardPro\Supports\Collection;
+use WizardPro\Supports\Config;
+use WizardPro\Supports\Str;
 
 /**
  * @method Response   app(array $config)      APP 支付

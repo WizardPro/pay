@@ -1,19 +1,19 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace WizardPro\Pay\Gateways\Alipay;
 
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Log;
-use Yansongda\Supports\Arr;
-use Yansongda\Supports\Collection;
-use Yansongda\Supports\Config;
-use Yansongda\Supports\Str;
-use Yansongda\Supports\Traits\HasHttpRequest;
+use WizardPro\Pay\Events;
+use WizardPro\Pay\Exceptions\GatewayException;
+use WizardPro\Pay\Exceptions\InvalidArgumentException;
+use WizardPro\Pay\Exceptions\InvalidConfigException;
+use WizardPro\Pay\Exceptions\InvalidSignException;
+use WizardPro\Pay\Gateways\Alipay;
+use WizardPro\Pay\Log;
+use WizardPro\Supports\Arr;
+use WizardPro\Supports\Collection;
+use WizardPro\Supports\Config;
+use WizardPro\Supports\Str;
+use WizardPro\Supports\Traits\HasHttpRequest;
 
 /**
  * @author yansongda <me@yansongda.cn>

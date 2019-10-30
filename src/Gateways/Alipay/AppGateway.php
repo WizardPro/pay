@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace WizardPro\Pay\Gateways\Alipay;
 
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Gateways\Alipay;
+use WizardPro\Pay\Events;
+use WizardPro\Pay\Exceptions\InvalidArgumentException;
+use WizardPro\Pay\Exceptions\InvalidConfigException;
+use WizardPro\Pay\Gateways\Alipay;
 
 class AppGateway extends Gateway
 {
@@ -29,7 +29,7 @@ class AppGateway extends Gateway
 
         $biz_array = json_decode($payload['biz_content'], true);
         if ((Alipay::MODE_SERVICE === $this->mode) && (!empty(Support::getInstance()->pid))) {
-            //·þÎñÉÌÄ£Ê½ÇÒ·þÎñÉÌpid²ÎÊý²»Îª¿Õ
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½pidï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½
             $biz_array['extend_params'] = is_array($biz_array['extend_params']) ? array_merge(['sys_service_provider_id' => Support::getInstance()->pid], $biz_array['extend_params']) : ['sys_service_provider_id' => Support::getInstance()->pid];
         }
         $payload['biz_content'] = json_encode(array_merge($biz_array, ['product_code' => 'QUICK_MSECURITY_PAY']));

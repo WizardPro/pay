@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace WizardPro\Pay\Gateways\Alipay;
 
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Supports\Collection;
+use WizardPro\Pay\Events;
+use WizardPro\Pay\Exceptions\GatewayException;
+use WizardPro\Pay\Exceptions\InvalidArgumentException;
+use WizardPro\Pay\Exceptions\InvalidConfigException;
+use WizardPro\Pay\Exceptions\InvalidSignException;
+use WizardPro\Pay\Gateways\Alipay;
+use WizardPro\Supports\Collection;
 
 class PosGateway extends Gateway
 {

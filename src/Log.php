@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace WizardPro\Pay;
 
-use Yansongda\Supports\Log as BaseLog;
+use WizardPro\Supports\Log as BaseLog;
 
 /**
  * @method static void emergency($message, array $context = array())
