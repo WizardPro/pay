@@ -1,5 +1,5 @@
 {
-    "name": "wizard/pay",
+    "name": "wizardPro/pay",
     "description": "fork from yansongda/pay and support alipay cert with @cuikangyi 's pr https://github.com/yansongda/pay/pull/288",
     "keywords": ["alipay", "wechat", "pay"],
     "type": "library",
@@ -31,12 +31,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Wizard\\Pay\\": "src"
+            "WizardPro\\Pay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wizard\\Pay\\Tests\\": "tests"
+            "WizardPro\\Pay\\Tests\\": "tests"
         }
     }
 }
