@@ -1,5 +1,5 @@
 {
-    "name": "wizardPro/pay",
+    "name": "wizard-pro/pay",
     "description": "fork from yansongda/pay and support alipay cert with @cuikangyi 's pr https://github.com/yansongda/pay/pull/288",
     "keywords": ["alipay", "wechat", "pay"],
     "type": "library",
