@@ -301,9 +301,5 @@ class PayController
 
 如果您有其它支付网关的需求，或者发现本项目中需要改进的代码，**_欢迎 Fork 并提交 PR！_**
 
-## 赏一杯咖啡吧
-
-![pay](https://pay.yanda.net.cn/images/pay.jpg)
-
 ## LICENSE
 MIT
