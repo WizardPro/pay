@@ -468,4 +468,3 @@ class Support
         return implode('_', $md5_arr);
     }
 }
-}
