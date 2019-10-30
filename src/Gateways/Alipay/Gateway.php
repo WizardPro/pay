@@ -4,7 +4,7 @@ namespace WizardPro\Pay\Gateways\Alipay;
 
 use WizardPro\Pay\Contracts\GatewayInterface;
 use WizardPro\Pay\Exceptions\InvalidArgumentException;
-use WizardPro\Supports\Collection;
+use Yansongda\Supports\Collection;
 
 abstract class Gateway implements GatewayInterface
 {

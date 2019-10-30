@@ -2,7 +2,7 @@
 
 namespace WizardPro\Pay;
 
-use WizardPro\Supports\Log as BaseLog;
+use Yansongda\Supports\Log as BaseLog;
 
 /**
  * @method static void emergency($message, array $context = array())

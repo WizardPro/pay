@@ -7,8 +7,8 @@ use WizardPro\Pay\Events;
 use WizardPro\Pay\Exceptions\GatewayException;
 use WizardPro\Pay\Exceptions\InvalidArgumentException;
 use WizardPro\Pay\Exceptions\InvalidSignException;
-use WizardPro\Supports\Collection;
-use WizardPro\Supports\Str;
+use Yansongda\Supports\Collection;
+use Yansongda\Supports\Str;
 
 class MpGateway extends Gateway
 {

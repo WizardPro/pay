@@ -6,7 +6,7 @@ use WizardPro\Pay\Events;
 use WizardPro\Pay\Exceptions\GatewayException;
 use WizardPro\Pay\Exceptions\InvalidArgumentException;
 use WizardPro\Pay\Exceptions\InvalidSignException;
-use WizardPro\Supports\Collection;
+use Yansongda\Supports\Collection;
 
 class PosGateway extends Gateway
 {

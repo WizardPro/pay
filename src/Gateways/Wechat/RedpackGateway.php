@@ -8,7 +8,7 @@ use WizardPro\Pay\Exceptions\GatewayException;
 use WizardPro\Pay\Exceptions\InvalidArgumentException;
 use WizardPro\Pay\Exceptions\InvalidSignException;
 use WizardPro\Pay\Gateways\Wechat;
-use WizardPro\Supports\Collection;
+use Yansongda\Supports\Collection;
 
 class RedpackGateway extends Gateway
 {

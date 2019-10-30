@@ -10,10 +10,10 @@ use WizardPro\Pay\Exceptions\InvalidArgumentException;
 use WizardPro\Pay\Exceptions\InvalidSignException;
 use WizardPro\Pay\Gateways\Wechat;
 use WizardPro\Pay\Log;
-use WizardPro\Supports\Collection;
-use WizardPro\Supports\Config;
-use WizardPro\Supports\Str;
-use WizardPro\Supports\Traits\HasHttpRequest;
+use Yansongda\Supports\Collection;
+use Yansongda\Supports\Config;
+use Yansongda\Supports\Str;
+use Yansongda\Supports\Traits\HasHttpRequest;
 
 /**
  * @author yansongda <me@yansongda.cn>

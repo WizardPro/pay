@@ -8,7 +8,7 @@ use WizardPro\Pay\Exceptions\InvalidArgumentException;
 use WizardPro\Pay\Exceptions\InvalidConfigException;
 use WizardPro\Pay\Exceptions\InvalidSignException;
 use WizardPro\Pay\Gateways\Alipay;
-use WizardPro\Supports\Collection;
+use Yansongda\Supports\Collection;
 
 class PosGateway extends Gateway
 {

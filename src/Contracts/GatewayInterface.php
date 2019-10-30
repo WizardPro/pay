@@ -3,7 +3,7 @@
 namespace WizardPro\Pay\Contracts;
 
 use Symfony\Component\HttpFoundation\Response;
-use WizardPro\Supports\Collection;
+use Yansongda\Supports\Collection;
 
 interface GatewayInterface
 {

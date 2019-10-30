@@ -15,9 +15,9 @@ use WizardPro\Pay\Exceptions\InvalidGatewayException;
 use WizardPro\Pay\Exceptions\InvalidSignException;
 use WizardPro\Pay\Gateways\Wechat\Support;
 use WizardPro\Pay\Log;
-use WizardPro\Supports\Collection;
-use WizardPro\Supports\Config;
-use WizardPro\Supports\Str;
+use Yansongda\Supports\Collection;
+use Yansongda\Supports\Config;
+use Yansongda\Supports\Str;
 
 /**
  * @method Response         app(array $config)          APP 支付
